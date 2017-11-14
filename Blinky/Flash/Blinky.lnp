@@ -1,0 +1,13 @@
+--cpu=Cortex-M4.fp
+".\flash\blinky.o"
+".\flash\u8g_arm.o"
+".\flash\stm32f4xx_spi.o"
+".\flash\stm32f4xx_gpio.o"
+".\flash\stm32f4xx_rcc.o"
+"D:\Program\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib"
+".\flash\startup_stm32f407xx.o"
+".\flash\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter ".\Flash\Blinky.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Flash\Blinky.map" -o .\Flash\Blinky.axf

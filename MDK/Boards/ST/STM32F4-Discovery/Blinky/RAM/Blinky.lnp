@@ -1,0 +1,19 @@
+--cpu=Cortex-M4.fp
+".\ram\blinky.o"
+".\ram\buttons_f4discovery.o"
+".\ram\led_f4discovery.o"
+"D:\Program\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM4.lib"
+".\ram\rtx_conf_cm.o"
+".\ram\stm32f4xx_hal.o"
+".\ram\stm32f4xx_hal_cortex.o"
+".\ram\stm32f4xx_hal_gpio.o"
+".\ram\stm32f4xx_hal_pwr.o"
+".\ram\stm32f4xx_hal_pwr_ex.o"
+".\ram\stm32f4xx_hal_rcc.o"
+".\ram\stm32f4xx_hal_rcc_ex.o"
+".\ram\startup_stm32f407xx.o"
+".\ram\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter ".\RAM\Blinky.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\RAM\Blinky.map" -o .\RAM\Blinky.axf
