@@ -1,0 +1,71 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         ; Константы
+    2 00000000         
+    3 00000000 20000100 
+                       STACK_TOP
+                               EQU              0x20000100  ; Вершина с
+                                                            тека
+    4 00000000 00060000 
+                       DELAY_VAL
+                               EQU              0x060000    ; Величина 
+                                                            задержки
+    5 00000000         
+    6 00000000         
+    7 00000000 00000008 
+                       ELEMENT_SIZE
+                               EQU              8
+    8 00000000 00000008 
+                       LENGTH_OF_ARRAY
+                               EQU              8
+    9 00000000         
+   10 00000000                 END
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
+ork --depend=.\objects\include.d -o.\objects\include.o -I.\RTE\_Target_1 -ID:\P
+rogram\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include -ID:\Program\Ke
+il_v5\ARM\CMSIS\Include --predefine="__UVISION_VERSION SETA 523" --predefine="S
+TM32F10X_MD_VL SETA 1" --list=.\listings\include.lst include.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Absolute symbols
+
+DELAY_VAL 00060000
+
+Symbol: DELAY_VAL
+   Definitions
+      At line 4 in file include.s
+   Uses
+      None
+Comment: DELAY_VAL unused
+ELEMENT_SIZE 00000008
+
+Symbol: ELEMENT_SIZE
+   Definitions
+      At line 7 in file include.s
+   Uses
+      None
+Comment: ELEMENT_SIZE unused
+LENGTH_OF_ARRAY 00000008
+
+Symbol: LENGTH_OF_ARRAY
+   Definitions
+      At line 8 in file include.s
+   Uses
+      None
+Comment: LENGTH_OF_ARRAY unused
+STACK_TOP 20000100
+
+Symbol: STACK_TOP
+   Definitions
+      At line 3 in file include.s
+   Uses
+      None
+Comment: STACK_TOP unused
+4 symbols
+336 symbols in table
