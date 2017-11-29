@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\DZ1.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\DZ1.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Sat Nov 18 15:05:09 2017
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Fri Nov 24 20:26:46 2017
 <BR><P>
 <H3>Maximum Stack Usage =          0 bytes + Unknown(Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -18,11 +18,17 @@ Function Pointers
 <H3>
 Global Symbols
 </H3>
-<P><STRONG><a name="[1]"></a>Reset_Handler</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, main.o(RESET))
+<P><STRONG><a name="[1]"></a>Reset_Handler</STRONG> (Thumb, 68 bytes, Stack size 0 bytes, main.o(RESET))
+<BR><BR>[Calls]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BBSort
+</UL>
 <P>
 <H3>
 Local Symbols
-</H3><P>
+</H3>
+<P><STRONG><a name="[2]"></a>BBSort</STRONG> (Thumb, 56 bytes, Stack size 0 bytes, main.o(RESET))
+<BR><BR>[Called By]<UL><LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Reset_Handler
+</UL>
+<P>
 <H3>
 Undefined Global Symbols
 </H3><HR></body></html>

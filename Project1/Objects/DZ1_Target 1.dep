@@ -1,6 +1,6 @@
 Dependencies for Project 'DZ1', Target 'Target 1': (DO NOT MODIFY !)
-F (.\main.s)(0x5A10010D)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Target_1-ID:\Program\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Program\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 523" --pd "STM32F10X_MD_VL SETA 1"--list .\listings\main.lst --xref -o .\objects\main.o --depend .\objects\main.d)
-I (include.s)(0x5A0FE8DA)
+F (.\main.s)(0x5A185654)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Target_1-ID:\Program\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Program\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 523" --pd "STM32F10X_MD_VL SETA 1"--list .\listings\main.lst --xref -o .\objects\main.o --depend .\objects\main.d)
+I (include.s)(0x5A185654)
 I (stm32f10x.s)(0x59D8A0C7)
-F (.\include.s)(0x5A0FE8DA)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Target_1-ID:\Program\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Program\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 523" --pd "STM32F10X_MD_VL SETA 1"--list .\listings\include.lst --xref -o .\objects\include.o --depend .\objects\include.d)
+F (.\include.s)(0x5A185654)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Target_1-ID:\Program\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Program\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 523" --pd "STM32F10X_MD_VL SETA 1"--list .\listings\include.lst --xref -o .\objects\include.o --depend .\objects\include.d)
 F (.\stm32f10x.s)(0x59D8A0C7)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Target_1-ID:\Program\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Program\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 523" --pd "STM32F10X_MD_VL SETA 1"--list .\listings\stm32f10x.lst --xref -o .\objects\stm32f10x.o --depend .\objects\stm32f10x.d)

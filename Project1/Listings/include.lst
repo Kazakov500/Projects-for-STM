@@ -16,9 +16,9 @@ ARM Macro Assembler    Page 1
                                                             задержки
     5 00000000         
     6 00000000         
-    7 00000000 00000008 
+    7 00000000 00000001 
                        ELEMENT_SIZE
-                               EQU              8
+                               EQU              1
     8 00000000 00000008 
                        LENGTH_OF_ARRAY
                                EQU              8
@@ -43,7 +43,7 @@ Symbol: DELAY_VAL
    Uses
       None
 Comment: DELAY_VAL unused
-ELEMENT_SIZE 00000008
+ELEMENT_SIZE 00000001
 
 Symbol: ELEMENT_SIZE
    Definitions
